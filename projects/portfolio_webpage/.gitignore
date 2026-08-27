@@ -1,8 +1,24 @@
+# Quarto build outputs
 /.quarto/
 /_site/
+**/*.quarto_ipynb
+
+# Python cache & build files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# OS & Environment files
 .DS_Store
 .env
 notes.txt
-**/*.quarto_ipynb
+
+# Editor / IDE configs (optional)
+.vscode/
+.idea/
