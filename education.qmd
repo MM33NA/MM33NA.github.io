@@ -2,4 +2,24 @@
 title: "Education"
 ---
 
-Education page coming soon.
+```{python}
+#| echo: false
+#| output: asis
+import yaml
+
+with open('data/education.yaml', 'r', encoding='utf-8') as f:
+    data = yaml.safe_load(f)
+
+degrees = data.get('education') or []
+
+for edu in degrees:
+    status = " *(In Progress)*" if edu.get('status') == 'In Progress' else ""
+    print(f"## {edu['degree']}{status}\n")
+    if edu.get('concentration'):
+        print(f"*{edu['concentration']}*\n")
+    print(f"**{edu['institution']}** | {edu['location']}\n")
+    print(f"{edu['period']}")
+    if edu.get('graduation'):
+        print(f"\n*Graduated: {edu['graduation']}*")
+    print("\n---\n")
+```

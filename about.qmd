@@ -2,4 +2,40 @@
 title: "About"
 ---
 
-About page coming soon.
+## Background
+
+I am a public health researcher, biostatistician, and data analyst with over seven years of experience 
+spanning global health communication, program evaluation, and AI-assisted research. My career has been 
+built at Vital Strategies, where I have progressed from research intern to consultant, leading 
+multi-country research and evaluation projects across five continents.
+
+My work sits at the intersection of public health evidence generation and data science. I apply 
+advanced statistical methods, machine learning tools, and real-time data systems to evaluate how 
+health communication campaigns change behavior, how commercial actors market harmful products online, 
+and how public health evidence can be translated into policy and practice.
+
+## Research Interests
+
+- **Commercial determinants of health** — surveillance of tobacco, alcohol, and ultra-processed food 
+  marketing; digital marketing monitoring; policy evaluation
+- **Overdose prevention and harm reduction** — campaign evaluation; behavioral determinants of 
+  naloxone uptake; stigma measurement
+- **AI in public health research** — large language model classification; explainable AI; automated 
+  content analysis; digital surveillance systems
+- **Health communication and campaign evaluation** — Monitoring, Evaluation, and Learning (MEL) 
+  frameworks; multi-stream data integration; behavioral prediction modeling
+- **Global nutrition policy** — front-of-package labeling; sugary drinks taxation; ultra-processed 
+  food regulation
+
+## Approach
+
+I believe rigorous methods and accessible communication are equally important. My analytical work 
+combines advanced statistical modeling with practical tools — automated dashboards, reproducible 
+Python workflows, and AI-assisted validation systems — that make research faster, more transparent, 
+and more useful to the people who need it.
+
+I work across quantitative and qualitative traditions, from survey-weighted logistic regression and 
+structural equation modeling to qualitative message testing and systematic review. I am particularly 
+interested in how AI tools can augment, rather than replace, human analytical judgment in complex 
+public health research contexts.
+

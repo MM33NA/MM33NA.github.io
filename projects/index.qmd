@@ -2,4 +2,42 @@
 title: "Projects"
 ---
 
-Projects page coming soon.
+```{python}
+#| echo: false
+#| output: asis
+import yaml
+import os
+
+yaml_path = os.path.join(os.path.dirname('__file__'), '..', 'data', 'projects.yaml')
+with open('../data/projects.yaml', 'r', encoding='utf-8') as f:
+    data = yaml.safe_load(f)
+
+projects = data.get('projects') if data else []
+
+categories = {}
+for proj in projects:
+    cat = proj['category']
+    if cat not in categories:
+        categories[cat] = []
+    categories[cat].append(proj)
+
+for cat, proj_list in categories.items():
+    print(f"## {cat}\n")
+    for proj in proj_list:
+        status = f" *({proj['status']})*" if proj.get('status') else ""
+        print(f"### {proj['title']}{status}\n")
+        print(f"{proj['description']}\n")
+        if proj.get('problem'):
+            print(f"**Problem addressed:** {proj['problem']}\n")
+        tools = ", ".join(proj['tools'])
+        print(f"**Tools:** {tools}\n")
+        links = []
+        if proj.get('github'):
+            links.append(f"[GitHub]({proj['github']})")
+        if proj.get('url'):
+            links.append(f"[Project site]({proj['url']})")
+        if links:
+            print(" | ".join(links))
+        print()
+    print("---\n")
+```

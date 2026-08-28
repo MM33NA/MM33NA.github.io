@@ -1,6 +1,23 @@
 ---
 title: "Meena Maharjan"
-subtitle: "Public Health Researcher | Data Analyst"
+subtitle: "Public Health Researcher | Data Analyst | Biostatistician"
+page-layout: full
 ---
-Welcome. This site is under construction.
 
+Meena Maharjan is a public health researcher and data analyst with over seven years of international 
+experience at the intersection of global health communication, biostatistics, and AI-driven analytics. 
+She specializes in evaluating public health campaigns, monitoring commercial determinants of health, 
+and building data tools that translate complex evidence into actionable policy insights. Her work 
+spans overdose prevention, tobacco and alcohol marketing surveillance, nutrition policy, and behavioral 
+research across the United States, South Asia, Latin America, and Africa.
+
+Currently based in Arlington, Texas, she works as a consultant with Vital Strategies on multi-city 
+overdose prevention campaign evaluation and AI-assisted digital marketing surveillance. She holds a 
+Master of Science in Applied Data Analytics from the University of Central Arkansas and a Master of 
+Public Health in Biostatistics from SRM Institute of Science and Technology, and is currently pursuing 
+a Doctor of Business Administration at Westcliff University.
+
+---
+
+**[About](about.qmd)   |   [Research](research.qmd)   |   [Publications](publications.qmd)   |   
+[Projects](projects/index.qmd)   |   [Contact](contact.qmd)**

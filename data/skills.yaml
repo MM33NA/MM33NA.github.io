@@ -1,0 +1,74 @@
+skills:
+  - category: "Programming & Scripting"
+    items:
+      - "Python (advanced - data analysis, automation, APIs, AI integration)"
+      - "SQL"
+      - "R (foundational)"
+
+  - category: "Statistical Analysis"
+    items:
+      - "Logistic regression (including survey-weighted)"
+      - "Multivariate regression"
+      - "Factor analysis"
+      - "Structural equation modeling (SEM)"
+      - "Principal component analysis (PCA)"
+      - "Behavioral prediction modeling"
+      - "Descriptive and inferential statistics"
+
+  - category: "Statistical Software"
+    items:
+      - "SPSS"
+      - "Stata"
+      - "Python - pandas, scipy, statsmodels, scikit-learn"
+
+  - category: "Data Visualization & Business Intelligence"
+    items:
+      - "Power BI (including automated, real-time dashboards)"
+      - "Tableau"
+      - "Plotly"
+      - "Matplotlib"
+
+  - category: "AI & Machine Learning"
+    items:
+      - "Large language models (LLMs)"
+      - "Prompt engineering"
+      - "OpenRouter API"
+      - "AI-assisted content classification"
+      - "Explainable AI (XAI)"
+      - "Automated classification and validation systems"
+
+  - category: "Research Methods"
+    items:
+      - "IRB protocol design"
+      - "Survey design and instrument development"
+      - "Monitoring, Evaluation, and Learning (MEL) frameworks"
+      - "Campaign evaluation"
+      - "Qualitative research and message testing"
+      - "Content analysis"
+      - "Systematic literature review"
+      - "Social and behavioral research"
+
+  - category: "Digital & Media Analytics"
+    items:
+      - "Google Analytics 4"
+      - "Google Trends"
+      - "Social listening and media monitoring"
+      - "Synthesio.AI"
+      - "Digital marketing surveillance"
+      - "Multi-channel campaign analytics"
+
+  - category: "Scientific Communication"
+    items:
+      - "Peer-reviewed manuscript writing"
+      - "Policy report and technical writing"
+      - "Data visualization for non-technical audiences"
+      - "Stakeholder presentations"
+
+  - category: "Certifications & Training"
+    items:
+      - "Comprehensive Generative AI - Outskill (2025)"
+      - "Python Refresher with AI - Simplilearn (2026)"
+      - "Applied Data Science with Python - Simplilearn (2026)"
+      - "Machine Learning - Simplilearn (Ongoing)"
+      - "Social and Behavioral Research - CITI Program (2022)"
+      - "Tobacco Industry Monitoring and Research Accountability - University of Bath (2020)"

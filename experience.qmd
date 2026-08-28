@@ -1,4 +1,36 @@
 ---
 title: "Experience"
 ---
-Experience page coming soon.
+
+```{python}
+#| echo: false
+#| output: asis
+import yaml
+
+with open('data/experience.yaml', 'r') as f:
+    data = yaml.safe_load(f)
+
+for job in data['experience']:
+    print(f"## {job['title']}\n")
+    print(f"**{job['organization']}** | {job['location']} | {job['period']}\n")
+    
+    if job.get('note'):
+        print(f"*{job['note']}*\n")
+    
+    if job.get('bullets'):
+        for bullet in job['bullets']:
+            print(f"- {bullet}")
+        print()
+    
+    if job.get('projects'):
+        for proj in job['projects']:
+            link = f" — [Campaign site]({proj['url']})" if proj.get('url') else ""
+            print(f"### {proj['name']}{link}\n")
+            if proj.get('description'):
+                print(f"*{proj['description'].strip()}*\n")
+            for bullet in proj['bullets']:
+                print(f"- {bullet}")
+            print()
+    
+    print("---\n")
+```

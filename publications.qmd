@@ -1,4 +1,64 @@
 ---
 title: "Publications"
 ---
-Publications page coming soon.
+
+```{python}
+#| echo: false
+#| output: asis
+import yaml
+
+with open('data/publications.yaml', 'r', encoding='utf-8') as f:
+    data = yaml.safe_load(f)
+
+peer_reviewed = data.get('peer_reviewed') or []
+reports = data.get('reports') or []
+conference_abstracts = data.get('conference_abstracts') or []
+in_progress = data.get('in_progress') or []
+
+# Peer-reviewed
+print("## Peer-Reviewed Publications\n")
+for pub in peer_reviewed:
+    badge = " *(Under Review)*" if pub.get('status') == 'under_review' else ""
+    print(f"**{pub['title']}**{badge}  ")
+    print(f"{pub['authors']} ({pub['year']})  ")
+    vol = f", {pub['volume']}" if pub.get('volume') else ""
+    print(f"*{pub['journal']}*{vol}  ")
+    if pub.get('note'):
+        print(f"*{pub['note']}*  ")
+    if pub.get('doi'):
+        print(f"[DOI]({pub['doi']})")
+    print()
+
+# Reports
+print("---\n")
+print("## Research Reports & Technical Publications\n")
+for rep in reports:
+    print(f"**{rep['title']}**  ")
+    print(f"{rep['authors']} ({rep['year']})  ")
+    print(f"*{rep['publisher']}* — {rep['type']}  ")
+    if rep.get('url'):
+        print(f"[Full text]({rep['url']})")
+    print()
+
+# Conference abstracts
+print("---\n")
+print("## Conference Abstracts & Presentations\n")
+for ab in conference_abstracts:
+    print(f"**{ab['title']}**  ")
+    print(f"{ab['authors']} ({ab['year']})  ")
+    print(f"*{ab['conference']}*, {ab['location']}  ")
+    if ab.get('doi'):
+        print(f"[Abstract]({ab['doi']})")
+    print()
+
+# In progress
+print("---\n")
+print("## In Preparation\n")
+for wip in in_progress:
+    print(f"**{wip['title']}**  ")
+    print(f"*{wip['description']}*  ")
+    if wip.get('target_journal'):
+        print(f"Target: *{wip['target_journal']}*  ")
+    print(f"Role: {wip['my_role']}  ")
+    print()
+```

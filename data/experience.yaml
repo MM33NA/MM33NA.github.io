@@ -1,0 +1,102 @@
+experience:
+  - title: "Consultant"
+    organization: "Vital Strategies"
+    location: "Arlington, Texas, USA"
+    period: "January 2025 - Present"
+    type: "multi-project"
+    projects:
+      - name: "You Have the Power to Save Lives - Overdose Prevention Campaign"
+        url: "https://youcansavelives.org/"
+        description: >
+          Multi-city public health media campaign across seven U.S. cities aimed at reducing overdose
+          deaths in Black communities by promoting naloxone availability and destigmatizing harm reduction.
+        bullets:
+          - "Led research design, execution, and documentation of data analysis for a seven-city public health media campaign"
+          - "Managed and analyzed multi-stream datasets including survey data, media planning metrics, digital engagement indicators, earned media coverage, and real-world naloxone distribution data"
+          - "Conducted advanced quantitative analyses including survey-weighted logistic regression and behavioral prediction modeling to identify determinants of campaign awareness, naloxone knowledge, and uptake intent"
+          - "Drafting a comprehensive Monitoring, Evaluation, and Learning (MEL) report covering media, community, and general public survey strands"
+          - "Preparing a peer-reviewed article on behavioral prediction modeling and determinants of naloxone uptake confidence and intent"
+          - "Developed an interactive Power BI dashboard integrating Google Analytics 4, social media metrics, and multi-channel campaign data with real-time monitoring capabilities"
+          - "Generated ROI insights to strengthen investment cases for data-driven public health initiatives"
+
+      - name: "By LA for LA - Los Angeles County Overdose Prevention Campaign"
+        url: "https://bylaforla.org/"
+        description: >
+          Four-year integrated marketing campaign partnering with LA County Departments of Public Health
+          and Health Services to destigmatize harm reduction services and reduce barriers to overdose prevention.
+        bullets:
+          - "Conducted research and data analysis for campaign evaluation focused on measuring engagement, awareness, and stigma reduction among Los Angeles County residents"
+          - "Performed supplementary analyses using Google Trends, Google Analytics, and social listening data to assess public awareness and behavioral change indicators across multilingual and multicultural audiences"
+          - "Developed and maintained an automated Power BI dashboard for real-time tracking of media performance, community engagement, and geographic reach"
+
+      - name: "CANARY Food Policy Program - Digital Marketing Surveillance"
+        url: "https://alertsbycanary.org/"
+        description: >
+          AI-enhanced digital media monitoring service tracking harmful product marketing across seven countries.
+          Led research on Coca-Cola's digital marketing during the 2025 FIFA Club World Cup.
+        bullets:
+          - "Led the full lifecycle of the CANARY Food Policy Program research project from research design and data collection through final report delivery"
+          - "Developed a Python-based AI validator using the OpenRouter API to automatically cross-check human-coded classifications against AI-generated results, providing confidence scores and reasoning for each prediction"
+          - "Developed an automated data validation tool to streamline cleaning, error-checking, and visualization of datasets collected via Synthesio.AI"
+          - "Designed interactive Power BI dashboards with real-time monitoring capabilities to visualize key findings, trends, and policy-relevant indicators"
+          - "Analyzed social media datasets to identify Coca-Cola marketing trends, tactics, and message framing during the FIFA Club World Cup 2025"
+          - "Contributing to a working paper on implementing large language models for automated classification in alcohol marketing surveillance"
+
+  - title: "Data Analytics Intern"
+    organization: "Vital Strategies"
+    location: "Arlington, Texas, USA"
+    period: "September 2024 – December 2024"
+    note: "Graduate academic internship through the University of Central Arkansas MS in Applied Data Analytics program"
+    bullets:
+      - "Executed data analysis tasks including data cleaning, consistency validation, and dataset merging in support of public health research operations"
+      - "Applied univariate and multivariate analytical techniques including regression, factor analysis, and PCA, summarizing findings in analytical reports"
+      - "Developed presentations, graphs, and spreadsheets communicating research outcomes for stakeholder audiences"
+      - "Designed and implemented interactive Tableau dashboards enabling stakeholder insight into complex datasets and trends"
+      - "Conducted literature reviews on data analytics methodologies and contributed to technical writing and manuscript preparation"
+      - "Prepared and formatted results for reports, publications, and presentations adhering to organizational standards"
+
+  - title: "Research Manager - Policy Advocacy and Communication Division"
+    organization: "Vital Strategies"
+    location: "New Delhi, India"
+    period: "April 2022 – December 2023"
+    bullets:
+      - "Managed 4+ multi-country research initiatives across 5 countries overseeing social, behavioral, and policy change projects with international partners"
+      - "Directed quantitative campaign evaluations for front-of-package labeling in South Africa (2022) and sugary drinks tax campaigns in Brazil (2022–2023)"
+      - "Led qualitative message testing studies on school nutrition initiatives in Colombia and Barbados (2023) generating actionable policy insights"
+      - "Designed comprehensive research frameworks including IRB-approved protocols, questionnaires, and sampling methodologies"
+      - "Produced high-impact policy reports featuring actionable insights and data visualizations for stakeholder decision-making"
+      - "Conducted sophisticated statistical analyses including multivariate regression, factor analysis, and structural equation modeling"
+      - "Established quality management systems ensuring research accuracy, integrity, and timely delivery"
+
+  - title: "Research Associate - Policy Advocacy and Communication Division"
+    organization: "Vital Strategies"
+    location: "New Delhi, India"
+    period: "April 2021 - April 2022"
+    bullets:
+      - "Managed cross-country research portfolio supporting behavioral and policy change projects across four countries"
+      - "Led quantitative evaluation of front-of-package labeling campaigns in Colombia (2021) providing an evidence base for policy recommendations"
+      - "Directed qualitative message testing on ultra-processed food perception in Jamaica and Brazil (2021) and school nutrition programs"
+      - "Generated research publications through advanced data analysis and visualization supporting peer-reviewed journal submissions"
+      - "Developed technical content for journal articles and organizational reports contributing to global public health policy knowledge"
+      - "Established standardized protocols using SPSS ensuring consistency and accuracy across all research projects"
+
+  - title: "Research Assistant - Policy Advocacy and Communication Division"
+    organization: "Vital Strategies"
+    location: "New Delhi, India"
+    period: "April 2018 – April 2021"
+    bullets:
+      - "Managed and coordinated multi-country research initiatives across five countries collaborating with global program and research teams"
+      - "Directed quantitative campaign evaluations on front-of-package labeling (South Africa, Colombia) and sugary drinks taxation (Brazil)"
+      - "Led qualitative message testing and perception studies on school nutrition and ultra-processed food campaigns across Colombia, Barbados, Jamaica, and Brazil"
+      - "Designed comprehensive research frameworks including IRB-approved protocols, survey instruments, and sampling methodologies"
+      - "Conducted advanced statistical analyses using SPSS and Stata to assess campaign impact and behavioral outcomes"
+      - "Produced high-impact policy reports and data visualizations translating complex findings into actionable policy insights"
+
+  - title: "Research Intern - Policy Advocacy and Communication Division"
+    organization: "Vital Strategies"
+    location: "New Delhi, India"
+    period: "January 2018 – March 2018"
+    bullets:
+      - "Conducted systematic literature reviews informing research design and methodology for multiple program initiatives"
+      - "Performed comprehensive data cleaning ensuring completeness, accuracy, and analytical readiness"
+      - "Supported survey development and created data visualizations for research dissemination to stakeholders"

@@ -27,7 +27,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install Python dependencies
-        run: pip install jupyter matplotlib plotly pandas
+        run: pip install jupyter matplotlib plotly pandas pyyaml
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2

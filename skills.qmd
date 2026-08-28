@@ -2,4 +2,17 @@
 title: "Skills"
 ---
 
-Skills page coming soon.
+```{python}
+#| echo: false
+#| output: asis
+import yaml
+
+with open('data/skills.yaml', 'r', encoding='utf-8') as f:
+    data = yaml.safe_load(f)
+
+for section in data['skills']:
+    print(f"## {section['category']}\n")
+    for item in section['items']:
+        print(f"- {item}")
+    print()
+```

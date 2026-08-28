@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: _site
 
-website: 
+website:
   title: "Meena Maharjan"
   navbar:
     left:
@@ -10,6 +10,8 @@ website:
         text: Home
       - href: about.qmd
         text: About
+      - href: education.qmd
+        text: Education
       - href: experience.qmd
         text: Experience
       - href: research.qmd
@@ -26,6 +28,6 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles/customs.css
+    css: styles/custom.css
     toc: false
     page-layout: full

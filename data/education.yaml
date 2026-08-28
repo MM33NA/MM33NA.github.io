@@ -1,0 +1,27 @@
+education:
+  - degree: "Doctor of Business Administration"
+    concentration: "Dual Concentration: Business Administration and Business Intelligence & Data Analytics"
+    institution: "Westcliff University"
+    location: "Dallas, Texas, USA"
+    period: "2026 – Present"
+    status: "In Progress"
+
+  - degree: "Master of Science in Applied Data Analytics"
+    institution: "University of Central Arkansas"
+    location: "Conway, Arkansas, USA"
+    period: "2023 – 2024"
+    graduation: "December 2024"
+    status: "Completed"
+
+  - degree: "Master of Public Health, Biostatistics"
+    institution: "SRM Institute of Science and Technology"
+    location: "Chennai, India"
+    period: "2016 – 2018"
+    graduation: "June 2018"
+    status: "Completed"
+
+  - degree: "Bachelor of Business Studies"
+    institution: "Tribhuvan University"
+    location: "Kathmandu, Nepal"
+    period: "2009 – 2012"
+    status: "Completed"

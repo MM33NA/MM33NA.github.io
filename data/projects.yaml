@@ -1,0 +1,44 @@
+projects:
+  - title: "Digital Sentinel AI"
+    description: "AI-powered surveillance tool for monitoring digital marketing and online content related to commercial determinants of health, combining Python automation with LLM-based content analysis"
+    problem: "Manual monitoring of large-scale digital marketing content is time-intensive and difficult to scale across platforms and languages"
+    tools: ["Python", "LLMs", "OpenRouter API", "AI Classification"]
+    github: "https://github.com/MM33NA/digital_sentinel_AI"
+    year: 2025
+    status: "Active"
+    category: "AI & Surveillance"
+
+  - title: "Automated Data Validation Framework"
+    description: "Interactive data validation tool automating cleaning, error-checking, auto-correction, and visualization of food policy marketing datasets used in the CANARY Research Project"
+    problem: "Manual QA/QC of large social media datasets is error-prone, inconsistent, and labor-intensive"
+    tools: ["Python", "Data Validation", "Visualization", "Power BI"]
+    github: "https://github.com/MM33NA/fifa-data-validation"
+    year: 2025
+    status: "Completed"
+    category: "Data Engineering"
+
+  - title: "OpenRouter-Based AI Classification Validator"
+    description: "Python application using the OpenRouter API to automate classification and validation of marketing content data, generating Excel comparison reports with accuracy metrics and QA summaries"
+    problem: "Human-coded content classification is slow and difficult to validate at scale across large social media datasets"
+    tools: ["Python", "OpenRouter API", "LLMs", "Excel Reporting"]
+    year: 2025
+    status: "Completed"
+    category: "AI & Surveillance"
+
+  - title: "URL Verification System"
+    description: "Python automation framework that validates and monitors large volumes of URLs, detecting broken, redirected, or restricted links using concurrent processing and generating structured QA reports"
+    problem: "Research and digital analytics workflows involve thousands of URLs that require regular validation to ensure data integrity"
+    tools: ["Python", "Concurrent Processing", "Automation", "NLP Pipelines"]
+    github: "https://github.com/MM33NA/broken-link-validator"
+    year: 2025
+    status: "Completed"
+    category: "Data Engineering"
+
+  - title: "Citation Tracker Automation Tool"
+    description: "Automated Python tool to track and update citation counts for academic papers using public APIs, extracting article metadata and exporting structured bibliometric reports"
+    problem: "Researchers manually check citation metrics across multiple platforms, which is time-consuming and not reproducible"
+    tools: ["Python", "Public APIs", "Bibliometrics", "Excel Reporting"]
+    github: "https://github.com/MM33NA/citation-tracker"
+    year: 2024
+    status: "Completed"
+    category: "Research Tools"

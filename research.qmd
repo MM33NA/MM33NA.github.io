@@ -1,0 +1,34 @@
+---
+title: "Research"
+---
+## Research Areas
+
+### Commercial Determinants of Health
+
+I study how corporations market tobacco, alcohol, sugary beverages, and ultra-processed foods through digital channels, and how this marketing undermines public health. My work with the CANARY program at Vital Strategies involves large-scale digital marketing surveillance using AI-assisted content classification, social media analysis, and real-time monitoring systems.
+
+### Public Health Campaign Evaluation
+
+I design and execute evaluations of large-scale public health media campaigns, using multi-stream data integration to measure reach, awareness, behavioral change, and policy impact. My current work focuses on overdose prevention campaigns targeting Black communities across U.S. cities.
+
+### AI and Machine Learning in Public Health Research
+
+I develop and validate AI-assisted tools for public health research, including LLM-based content classifiers, automated QA systems with explainable outputs, and Python-based data pipelines. I am particularly focused on making AI tools reproducible, auditable, and appropriate for use in policy-relevant research contexts.
+
+### Behavioral and Policy Research
+
+I apply advanced statistical methods — including survey-weighted logistic regression, factor analysis, structural equation modeling, and behavioral prediction modeling — to understand determinants of health behavior and policy support across diverse populations.
+
+## Methodological Expertise
+
+**Quantitative methods:** Logistic regression, survey-weighted analysis, multivariate regression, factor analysis, SEM, PCA, behavioral prediction modeling
+
+**Qualitative methods:** Message testing, focus groups, content analysis, systematic literature review
+
+**Evaluation frameworks:** Monitoring, Evaluation, and Learning (MEL), process and outcome evaluation, multi-stream data integration
+
+**AI/computational methods:** LLM classification, prompt engineering, automated validation, inter-rater reliability (Cohen's kappa), explainable AI
+
+## Geographic Scope
+
+My research has been conducted across or in collaboration with institutions in: United States, India, Brazil, Colombia, Jamaica, Barbados, South Africa
