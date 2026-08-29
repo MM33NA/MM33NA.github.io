@@ -4,6 +4,21 @@ project:
 
 website:
   title: "Meena Maharjan"
+  description: "Public health researcher and data analyst specializing in campaign evaluation, AI-assisted digital marketing surveillance, and biostatistics. Based in Arlington, Texas."
+  site-url: "https://MM33NA.github.io"
+
+  open-graph:
+    title: "Meena Maharjan - Public Health Researcher and Data Analyst"
+    description: "Public health researcher and data analyst with 7+ years of international experience in campaign evaluation, biostatistics, and AI-assisted surveillance."
+    image: "assets/images/headshot.png"
+    locale: "en_US"
+
+  twitter-card:
+    title: "Meena Maharjan - Public Health Researcher and Data Analyst"
+    description: "Public health researcher and data analyst with 7+ years of international experience in campaign evaluation, biostatistics, and AI-assisted surveillance."
+    image: "assets/images/headshot.png"
+    card-style: summary_large_image
+
   navbar:
     left:
       - href: index.qmd
@@ -24,11 +39,14 @@ website:
         text: Skills
       - href: contact.qmd
         text: Contact
+
   page-footer:
     center: |
       (c) 2026 Meena Maharjan | Arlington, Texas |
       <span class="beta-badge">Beta</span>
       This site is actively being developed and updated.
+
+  search: true
 
 format:
   html:
@@ -36,3 +54,4 @@ format:
     css: styles/custom.css
     toc: false
     page-layout: full
+    lang: en
