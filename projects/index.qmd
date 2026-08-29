@@ -6,13 +6,11 @@ title: "Projects"
 #| echo: false
 #| output: asis
 import yaml
-import os
 
-yaml_path = os.path.join(os.path.dirname('__file__'), '..', 'data', 'projects.yaml')
 with open('../data/projects.yaml', 'r', encoding='utf-8') as f:
     data = yaml.safe_load(f)
 
-projects = data.get('projects') if data else []
+projects = data.get('projects') or []
 
 categories = {}
 for proj in projects:

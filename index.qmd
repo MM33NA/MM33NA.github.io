@@ -1,20 +1,105 @@
 ---
-title: "Meena Maharjan"
-subtitle: "Public Health Researcher | Data Analyst | Biostatistician"
 page-layout: full
 ---
 
-Meena Maharjan is a public health researcher and data analyst with over seven years of international 
-experience at the intersection of global health communication, biostatistics, and AI-driven analytics. 
-She specializes in evaluating public health campaigns, monitoring commercial determinants of health, 
-and building data tools that translate complex evidence into actionable policy insights. Her work 
-spans overdose prevention, tobacco and alcohol marketing surveillance, nutrition policy, and behavioral 
-research across the United States, South Asia, Latin America, and Africa.
+```{=html}
+<!-- HERO SECTION -->
+<div class="hero-section">
+  <div class="hero-photo">
+    <img src="assets/images/headshot.png" alt="Meena Maharjan" />
+  </div>
+  <div class="hero-content">
+    <h1 class="hero-name">Meena Maharjan</h1>
+    <p class="hero-subtitle">
+      Public Health Researcher &nbsp;·&nbsp; Data Analyst &nbsp;·&nbsp; Biostatistician
+    </p>
+    <p class="hero-bio">
+      Over seven years of international experience evaluating public health campaigns,
+      monitoring commercial determinants of health, and building AI-assisted data tools
+      that translate complex evidence into policy action — across the United States,
+      South Asia, Latin America, and Africa.
+    </p>
+    <div class="hero-links">
+      <a href="mailto:mmaharjan039@gmail.com" class="hero-link">
+        <i class="bi bi-envelope-fill"></i> Email
+      </a>
+      <a href="https://www.linkedin.com/in/meena-maharjan-aa6b34150" class="hero-link" target="_blank">
+        <i class="bi bi-linkedin"></i> LinkedIn
+      </a>
+      <a href="https://github.com/MM33NA" class="hero-link" target="_blank">
+        <i class="bi bi-github"></i> GitHub
+      </a>
+      <a href="https://scholar.google.com/citations?user=lyUJXogAAAAJ&hl=en" class="hero-link" target="_blank">
+        <i class="bi bi-mortarboard-fill"></i> Scholar
+      </a>
+      <a href="https://orcid.org/0000-0003-2830-7226" class="hero-link" target="_blank">
+        <i class="bi bi-person-badge-fill"></i> ORCID
+      </a>
+    </div>
+  </div>
+</div>
 
-She holds a Master of Science in Applied Data Analytics from the University of Central Arkansas and a Master of 
-Public Health in Biostatistics from SRM Institute of Science and Technology, and is currently pursuing a Doctor of Business Administration at Westcliff University.
+<!-- IMPACT NUMBERS -->
+<div class="impact-row">
+  <div class="impact-stat">
+    <span class="impact-number">7+</span>
+    <span class="impact-label">Years of Research Experience</span>
+  </div>
+  <div class="impact-stat">
+    <span class="impact-number">10+</span>
+    <span class="impact-label">Countries of Research</span>
+  </div>
+  <div class="impact-stat">
+    <span class="impact-number">5</span>
+    <span class="impact-label">Peer-Reviewed Publications</span>
+  </div>
+  <div class="impact-stat">
+    <span class="impact-number">3</span>
+    <span class="impact-label">Campaigns Evaluated</span>
+  </div>
+</div>
 
----
+<!-- FEATURED WORK -->
+<div class="featured-section">
+  <h2>Featured Work</h2>
+  <div class="work-cards">
 
-**[About](about.qmd)   |   [Research](research.qmd)   |   [Publications](publications.qmd)   |   
-[Projects](projects/index.qmd)   |   [Contact](contact.qmd)**
+    <div class="work-card">
+      <div class="work-card-tag">AI &amp; Surveillance</div>
+      <h3 class="work-card-title">CANARY Food Policy Program</h3>
+      <p class="work-card-desc">
+        Led AI-assisted digital marketing surveillance of Coca-Cola's presence during
+        the 2025 FIFA Club World Cup, developing Python-based LLM classification tools
+        with explainable AI outputs across seven countries.
+      </p>
+      <div class="work-card-tools">Python &nbsp;·&nbsp; LLMs &nbsp;·&nbsp; Power BI &nbsp;·&nbsp; Synthesio.AI</div>
+      <a href="projects/index.qmd" class="work-card-link">View projects →</a>
+    </div>
+
+    <div class="work-card">
+      <div class="work-card-tag">Campaign Evaluation</div>
+      <h3 class="work-card-title">You Have the Power to Save Lives</h3>
+      <p class="work-card-desc">
+        Led multi-stream data analysis for a seven-city overdose prevention campaign
+        targeting Black communities, applying survey-weighted logistic regression and
+        behavioral prediction modeling to measure naloxone uptake and stigma reduction.
+      </p>
+      <div class="work-card-tools">Python &nbsp;·&nbsp; SPSS &nbsp;·&nbsp; Power BI &nbsp;·&nbsp; Google Analytics 4</div>
+      <a href="experience.qmd" class="work-card-link">View experience →</a>
+    </div>
+
+    <div class="work-card">
+      <div class="work-card-tag">Research Tools</div>
+      <h3 class="work-card-title">AI Classification &amp; Validation Suite</h3>
+      <p class="work-card-desc">
+        Built a suite of Python automation tools for public health research — including
+        an LLM-based content classifier, automated data validation framework, URL
+        verification system, and citation tracker.
+      </p>
+      <div class="work-card-tools">Python &nbsp;·&nbsp; OpenRouter API &nbsp;·&nbsp; GitHub</div>
+      <a href="projects/index.qmd" class="work-card-link">View projects →</a>
+    </div>
+
+  </div>
+</div>
+```
