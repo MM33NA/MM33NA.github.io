@@ -1,0 +1,215 @@
+---
+title: "Ebola Outbreak Dashboard"
+subtitle: "Real-Time Surveillance of the 2026 Bundibugyo Outbreak in DRC & Uganda"
+---
+
+```{=html}
+<div class="project-meta">
+  <span class="project-tag">Public Health Surveillance</span>
+  <span class="project-tag">Python</span>
+  <span class="project-tag">Data Visualization</span>
+  <span class="project-tag">AI-Assisted</span>
+  <span class="project-status">Active</span>
+</div>
+```
+
+## Overview
+
+An interactive, fully automated dashboard tracking the 2026 Bundibugyo Ebola 
+outbreak in the Democratic Republic of Congo and Uganda. The dashboard updates 
+daily through a GitHub Actions pipeline that scrapes official outbreak data, 
+pulls Google Trends public interest signals, and computes statistical 
+trajectory analyses — all without any manual intervention.
+
+The dashboard reads data entirely client-side from a single `data.json` file, 
+meaning no backend server is required. It is deployed as a static site on 
+GitHub Pages and updates automatically every day at 08:00 UTC.
+
+```{=html}
+<div class="project-links-row">
+  <a href="https://mm33na.github.io/ebola-outbreak/" class="hero-link" target="_blank">
+    <i class="bi bi-bar-chart-fill"></i> &nbsp; Live Dashboard
+  </a>
+  <a href="https://github.com/MM33NA/ebola-outbreak" class="hero-link" target="_blank">
+    <i class="bi bi-github"></i> &nbsp; GitHub Repository
+  </a>
+</div>
+```
+
+---
+
+## The Problem
+
+Tracking a fast-moving infectious disease outbreak requires daily, reliable, 
+machine-readable data. During the 2026 Bundibugyo Ebola outbreak, the 
+European Centre for Disease Prevention and Control (ECDC) published 
+near-daily updates — but the page format changed wording repeatedly, 
+breaking traditional regex parsers and requiring manual fixes each time.
+
+This project solves that problem by replacing brittle text-parsing rules 
+with Gemini AI, which reads the outbreak page like a human and extracts 
+case and death counts regardless of how the sentence is worded.
+
+---
+
+## Automated Data Pipeline
+
+The dashboard is powered by a four-script pipeline that runs daily via 
+GitHub Actions:
+
+```{=html}
+<div class="pipeline-row">
+  <div class="pipeline-step">
+    <span class="pipeline-number">01</span>
+    <span class="pipeline-label">scrape.py</span>
+    <span class="pipeline-desc">Fetches the ECDC outbreak page via 
+    cloudscraper and uses Gemini AI to extract confirmed case and 
+    death counts into data.json</span>
+  </div>
+  <div class="pipeline-arrow">&#8594;</div>
+  <div class="pipeline-step">
+    <span class="pipeline-number">02</span>
+    <span class="pipeline-label">trends.py</span>
+    <span class="pipeline-desc">Pulls Google Trends search interest, 
+    rising queries, and related topics — merging public attention 
+    signals into the surveillance dataset</span>
+  </div>
+  <div class="pipeline-arrow">&#8594;</div>
+  <div class="pipeline-step">
+    <span class="pipeline-number">03</span>
+    <span class="pipeline-label">analysis.py</span>
+    <span class="pipeline-desc">Recomputes CFR trend, exponential 
+    growth rate, doubling time, and search-interest correlation 
+    from the updated timeline</span>
+  </div>
+  <div class="pipeline-arrow">&#8594;</div>
+  <div class="pipeline-step">
+    <span class="pipeline-number">04</span>
+    <span class="pipeline-label">Deploy</span>
+    <span class="pipeline-desc">Updated data.json is committed and 
+    pushed to the repo, triggering automatic GitHub Pages deployment</span>
+  </div>
+</div>
+```
+
+---
+
+## Statistical Analyses
+
+The dashboard computes three epidemiological indicators automatically 
+on every daily run:
+
+### Case Fatality Rate (CFR) Trend
+Calculated as deaths / cases x 100 at each timeline point. Trend direction 
+compares the average of the most recent three data points against the 
+three preceding points — a more robust approach than simple first-vs-last 
+comparison, since early outbreak data points carry high noise from 
+incomplete case ascertainment.
+
+### Exponential Growth Rate and Doubling Time
+Fits log(cumulative cases) against days since first data point using 
+ordinary least squares. The slope gives the daily growth rate; doubling 
+time is computed as ln(2) / slope. R-squared is reported alongside the 
+estimate to communicate how well a single growth curve fits a potentially 
+multi-phase outbreak.
+
+### Search Interest and Case Growth Correlation
+Spearman rank correlation between Google's daily Ebola search interest 
+score and the most recent known cumulative case count. During this outbreak, 
+a sharp search interest spike around the WHO PHEIC announcement was followed 
+by declining attention even as cases continued rising — a media-attention 
+fatigue pattern visible in the negative correlation value.
+
+---
+
+## Why Gemini AI for Data Extraction
+
+ECDC changed the wording of their outbreak page five times between 
+May and July 2026. Each change broke traditional regex parsing. 
+Examples of the variation:
+
+> "DRC Ministry of Health reported a total of 1,155 confirmed cases, 
+> including 304 confirmed related deaths"
+
+> "A total 452 related deaths have been confirmed so far"
+
+> "1,561 confirmed cases (based on data until 4 July), including 
+> 506 confirmed deaths"
+
+Gemini AI reads the page as a human would and extracts the numbers 
+regardless of phrasing — eliminating the need for manual maintenance 
+each time the source page format changes.
+
+---
+
+## Data Sources
+
+| Data | Source | Frequency |
+|------|--------|-----------|
+| Case and death counts | ECDC outbreak page | Near-daily |
+| Public search interest | Google Trends (pytrends) | Daily |
+| Statistical analysis | Computed from timeline | Daily |
+| Outbreak milestones | Manually maintained | As needed |
+
+**Why ECDC over CDC:** CDC's situation page uses rounded prose 
+("more than 1,000 cases") rather than exact figures — not suitable 
+for building a daily timeline. ECDC publishes exact confirmed counts 
+updated almost daily.
+
+---
+
+## Tech Stack
+
+| Component | Technology |
+|-----------|-----------|
+| Data scraping | Python, cloudscraper |
+| AI extraction | Gemini API (free tier) |
+| Trends surveillance | Python, pytrends |
+| Statistical analysis | Python (stdlib only) |
+| Visualization | Chart.js |
+| Automation | GitHub Actions |
+| Deployment | GitHub Pages |
+
+---
+
+## Public Health Significance
+
+This project demonstrates several capabilities relevant to infectious 
+disease surveillance and outbreak response:
+
+- **Resilient data collection** — AI-assisted extraction handles 
+  format changes that break rule-based parsers, reducing maintenance 
+  burden during fast-moving emergencies
+- **Real-time public attention surveillance** — integrating Google 
+  Trends alongside epidemiological data provides insight into 
+  information-seeking behavior and media attention cycles
+- **Automated epidemiological analysis** — daily recomputation of 
+  CFR trends, growth rates, and search correlations without analyst 
+  intervention supports rapid situational awareness
+- **Open methodology** — fully reproducible pipeline on public GitHub 
+  with detailed documentation, suitable for adaptation to other 
+  outbreak contexts
+
+---
+
+## Current Status
+
+The dashboard is live and updating daily. Case and death data reflect 
+the most recent ECDC publication. The pipeline runs automatically 
+at 08:00 UTC each day and commits updated data to the repository.
+
+---
+
+```{=html}
+<div class="project-footer">
+  <a href="../" class="work-card-link">&#8592; Back to Projects</a>
+  <div style="display:flex; gap:0.75rem;">
+    <a href="https://mm33na.github.io/ebola-outbreak/" class="hero-link" target="_blank">
+      <i class="bi bi-bar-chart-fill"></i> &nbsp; Live Dashboard
+    </a>
+    <a href="https://github.com/MM33NA/ebola-outbreak" class="hero-link" target="_blank">
+      <i class="bi bi-github"></i> &nbsp; GitHub
+    </a>
+  </div>
+</div>
+```

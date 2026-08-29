@@ -8,6 +8,16 @@ projects:
     status: "Active"
     category: "AI & Surveillance"
 
+  - title: "Ebola Outbreak Dashboard"
+    description: "Real-time interactive dashboard tracking the 2026 Bundibugyo Ebola outbreak in DRC and Uganda, powered by a fully automated daily pipeline using Gemini AI for data extraction, Google Trends surveillance, and statistical trajectory analysis"
+    problem: "Fast-moving outbreak data requires daily automated collection that is resilient to changing source page formats"
+    tools: ["Python", "Gemini AI", "Google Trends", "Chart.js", "GitHub Actions"]
+    github: "https://github.com/MM33NA/ebola-outbreak"
+    page: "ebola-outbreak/"
+    year: 2026
+    status: "Active"
+    category: "Public Health Surveillance"
+
   - title: "Automated Data Validation Framework"
     description: "Interactive data validation tool automating cleaning, error-checking, auto-correction, and visualization of food policy marketing datasets used in the CANARY Research Project"
     problem: "Manual QA/QC of large social media datasets is error-prone, inconsistent, and labor-intensive"
