@@ -24,6 +24,11 @@ website:
         text: Skills
       - href: contact.qmd
         text: Contact
+  page-footer:
+    center: |
+      (c) 2026 Meena Maharjan | Arlington, Texas |
+      <span class="beta-badge">Beta</span>
+      This site is actively being developed and updated.
 
 format:
   html:

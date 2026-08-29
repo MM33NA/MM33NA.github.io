@@ -1,0 +1,200 @@
+---
+title: "Digital Sentinel AI"
+subtitle: "Automated Regulatory Compliance Monitoring for Digital Food Marketing"
+---
+
+```{=html}
+<div class="project-meta">
+  <span class="project-tag">Independent Research</span>
+  <span class="project-tag">Python</span>
+  <span class="project-tag">Regulatory Compliance</span>
+  <span class="project-tag">Public Health</span>
+  <span class="project-status">Active</span>
+</div>
+```
+
+```{=html}
+<div class="project-award">
+  🏆 Top 14 Finalist — AIpreneurship 2026 Competition | Westcliff University 
+  Innovation Hub &amp; IGNITE Incubator | May 2026
+</div>
+```
+
+## Overview
+
+Digital Sentinel AI is an independent doctoral research project — a Python-based 
+regulatory compliance monitoring platform that automates the detection and 
+assessment of digital food marketing content for signals of youth-targeting risk.
+
+The platform addresses a critical gap in public health surveillance: despite 
+rapidly evolving regulatory frameworks for digital food marketing, enforcement 
+capacity has not kept pace. Systematic monitoring of brand compliance with 
+youth-targeting restrictions at scale remains a largely manual, 
+resource-intensive process. Digital Sentinel AI demonstrates that automated, 
+evidence-based compliance monitoring is technically feasible at a fraction of 
+the cost of manual review.
+
+```{=html}
+<a href="https://mm33na-digital-sentinel-ai.hf.space" class="hero-link" 
+target="_blank" style="display:inline-flex; margin: 1rem 0;">
+  <i class="bi bi-box-arrow-up-right"></i> &nbsp; View Live Platform
+</a>
+```
+
+---
+
+## The Problem
+
+Digital food marketing targeting children is a growing public health concern. 
+Ultra-processed food brands — classified under NOVA Group 4 — increasingly 
+reach children through social media, influencer content, and targeted 
+advertising, often in ways that may conflict with emerging regulatory 
+frameworks including:
+
+- **UK High in Fat, Salt and Sugar (HFSS) regulations** — restricting the 
+  promotion of less healthy products in digital and broadcast media
+- **EU Digital Services Act (DSA)** — establishing obligations around 
+  targeted advertising directed at minors
+
+Despite these regulatory developments, public health researchers and regulatory 
+bodies lack accessible tools to continuously track and assess digital marketing 
+behavior across platforms at scale.
+
+---
+
+## What the Platform Does
+
+Digital Sentinel AI follows a four-stage automated pipeline:
+
+```{=html}
+<div class="pipeline-row">
+  <div class="pipeline-step">
+    <span class="pipeline-number">01</span>
+    <span class="pipeline-label">Capture</span>
+    <span class="pipeline-desc">Automated web scraping collects digital 
+    marketing content across platforms</span>
+  </div>
+  <div class="pipeline-arrow">→</div>
+  <div class="pipeline-step">
+    <span class="pipeline-number">02</span>
+    <span class="pipeline-label">Analyze</span>
+    <span class="pipeline-desc">Content assessed against HFSS and DSA 
+    regulatory criteria</span>
+  </div>
+  <div class="pipeline-arrow">→</div>
+  <div class="pipeline-step">
+    <span class="pipeline-number">03</span>
+    <span class="pipeline-label">Score</span>
+    <span class="pipeline-desc">Each item receives a risk score and 
+    compliance classification</span>
+  </div>
+  <div class="pipeline-arrow">→</div>
+  <div class="pipeline-step">
+    <span class="pipeline-number">04</span>
+    <span class="pipeline-label">Report</span>
+    <span class="pipeline-desc">SHA-256 notarized evidence records create 
+    an auditable, tamper-evident documentation chain</span>
+  </div>
+</div>
+```
+
+---
+
+## Why It Matters
+
+Regulatory frameworks for digital food marketing are evolving rapidly, but 
+enforcement capacity has not kept pace. This platform demonstrates three things:
+
+- **For public health researchers** — a replicable methodology for systematic 
+  digital marketing surveillance at scale
+- **For regulatory bodies and advocacy organizations** — a demonstration that 
+  technology can support evidence gathering for policy enforcement
+- **For the broader field** — a contribution to the emerging evidence base on 
+  the reach and nature of digital food marketing targeting children
+
+---
+
+## Tech Stack
+
+| Component | Technology |
+|-----------|-----------|
+| Web Scraping & Automation | Python, Playwright |
+| Backend Framework | Flask |
+| Evidence Notarization | SHA-256 Hashing |
+| Deployment | Hugging Face Spaces |
+| Data Processing | Python — pandas, NumPy |
+| Monitoring Scope | NOVA Group 4 / HFSS brands |
+| Regulatory Frameworks | UK HFSS, EU Digital Services Act |
+
+---
+
+## Potential Applications
+
+While Digital Sentinel AI was developed with a focus on NOVA Group 4 food 
+marketing and youth-targeting risk, the underlying pipeline is adaptable 
+to a range of public health surveillance contexts:
+
+**Regulatory Compliance Monitoring**  
+Automated assessment of brand content against defined regulatory criteria — 
+including HFSS, DSA, or equivalent national frameworks — to support 
+enforcement bodies in identifying potential violations at scale.
+
+**Academic Research on Digital Marketing**  
+Systematic, reproducible collection and classification of digital marketing 
+content for peer-reviewed research on commercial determinants of health, 
+including tobacco, alcohol, and ultra-processed food promotion.
+
+**Policy Advocacy and Evidence Generation**  
+Generation of audit-ready, SHA-256 notarized evidence records that advocacy 
+organizations and public health bodies can use to support policy arguments 
+and regulatory submissions.
+
+**Multi-Country and Cross-Platform Surveillance**  
+The modular pipeline architecture allows adaptation across platforms, 
+languages, and product categories — making it applicable to multi-country 
+research programs tracking digital marketing behavior across jurisdictions.
+
+**Longitudinal Marketing Trend Analysis**  
+Continuous monitoring over time enables detection of shifts in marketing 
+tactics, messaging strategies, and platform behavior — supporting both 
+retrospective analysis and real-time public health intelligence.
+
+---
+
+## Current Status
+
+Digital Sentinel AI is live and deployed as an independent doctoral research 
+project. The platform is actively monitoring digital marketing content and 
+generating risk assessments across tracked brands.
+
+Platform capability findings — including aggregate risk signal detection across 
+monitored content — are currently being prepared for peer-reviewed publication. 
+Specific brand-level findings will be reported through formal academic channels 
+following peer review.
+
+---
+
+## Limitations and Future Work
+
+**Current scope:**
+- Monitoring is currently focused on a defined set of NOVA Group 4 brands
+- Classification thresholds are calibrated to HFSS and DSA criteria and 
+  may require adjustment for other regulatory contexts
+
+**Planned development:**
+- Expand brand and platform coverage
+- Develop standardized reporting templates for regulatory submission
+- Validate risk scoring methodology through peer review
+- Explore applicability to tobacco and alcohol marketing compliance contexts
+
+---
+
+```{=html}
+<div class="project-footer">
+  <a href="../" class="work-card-link">← Back to Projects</a>
+  <a href="https://mm33na-digital-sentinel-ai.hf.space" class="hero-link" 
+  target="_blank">
+    <i class="bi bi-box-arrow-up-right"></i> &nbsp; Live Platform
+  </a>
+</div>
+```

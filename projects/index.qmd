@@ -30,6 +30,8 @@ for cat, proj_list in categories.items():
         tools = ", ".join(proj['tools'])
         print(f"**Tools:** {tools}\n")
         links = []
+        if proj.get('page'):
+            links.append(f"[View full case study →]({proj['page']})")
         if proj.get('github'):
             links.append(f"[GitHub]({proj['github']})")
         if proj.get('url'):

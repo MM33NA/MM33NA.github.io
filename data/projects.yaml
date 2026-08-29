@@ -3,7 +3,7 @@ projects:
     description: "AI-powered surveillance tool for monitoring digital marketing and online content related to commercial determinants of health, combining Python automation with LLM-based content analysis"
     problem: "Manual monitoring of large-scale digital marketing content is time-intensive and difficult to scale across platforms and languages"
     tools: ["Python", "LLMs", "OpenRouter API", "AI Classification"]
-    github: "https://github.com/MM33NA/digital_sentinel_AI"
+    page: "digital-sentinel-ai/"
     year: 2025
     status: "Active"
     category: "AI & Surveillance"
