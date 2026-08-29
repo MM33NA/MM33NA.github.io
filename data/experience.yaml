@@ -1,8 +1,8 @@
 experience:
-  - title: "Consultant"
+  - title: "Consultant Remote"
     organization: "Vital Strategies"
-    location: "Arlington, Texas, USA"
-    period: "January 2025 - Present"
+    location: "New York, NY, USA"
+    period: "January 2025 - December 2025"
     type: "multi-project"
     projects:
       - name: "You Have the Power to Save Lives - Overdose Prevention Campaign"
@@ -42,10 +42,10 @@ experience:
           - "Analyzed social media datasets to identify Coca-Cola marketing trends, tactics, and message framing during the FIFA Club World Cup 2025"
           - "Contributing to a working paper on implementing large language models for automated classification in alcohol marketing surveillance"
 
-  - title: "Data Analytics Intern"
+  - title: "Data Analytics Intern (Remote)"
     organization: "Vital Strategies"
-    location: "Arlington, Texas, USA"
-    period: "September 2024 – December 2024"
+    location: "New York, NY, USA"
+    period: "September 2024 - December 2024"
     note: "Graduate academic internship through the University of Central Arkansas MS in Applied Data Analytics program"
     bullets:
       - "Executed data analysis tasks including data cleaning, consistency validation, and dataset merging in support of public health research operations"
@@ -58,7 +58,7 @@ experience:
   - title: "Research Manager - Policy Advocacy and Communication Division"
     organization: "Vital Strategies"
     location: "New Delhi, India"
-    period: "April 2022 – December 2023"
+    period: "April 2022 - December 2023"
     bullets:
       - "Managed 4+ multi-country research initiatives across 5 countries overseeing social, behavioral, and policy change projects with international partners"
       - "Directed quantitative campaign evaluations for front-of-package labeling in South Africa (2022) and sugary drinks tax campaigns in Brazil (2022–2023)"
@@ -83,7 +83,7 @@ experience:
   - title: "Research Assistant - Policy Advocacy and Communication Division"
     organization: "Vital Strategies"
     location: "New Delhi, India"
-    period: "April 2018 – April 2021"
+    period: "April 2018 - April 2021"
     bullets:
       - "Managed and coordinated multi-country research initiatives across five countries collaborating with global program and research teams"
       - "Directed quantitative campaign evaluations on front-of-package labeling (South Africa, Colombia) and sugary drinks taxation (Brazil)"
@@ -95,7 +95,7 @@ experience:
   - title: "Research Intern - Policy Advocacy and Communication Division"
     organization: "Vital Strategies"
     location: "New Delhi, India"
-    period: "January 2018 – March 2018"
+    period: "January 2018 - March 2018"
     bullets:
       - "Conducted systematic literature reviews informing research design and methodology for multiple program initiatives"
       - "Performed comprehensive data cleaning ensuring completeness, accuracy, and analytical readiness"

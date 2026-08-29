@@ -1,1 +1,331 @@
-/* Custom styles - Phase 3 design work goes here */
+/* ============================================================
+   MEENA MAHARJAN PORTFOLIO — CUSTOM STYLES
+   Phase 3: Design Pass
+   ============================================================ */
+
+/* --- Google Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&display=swap');
+
+/* --- Design Tokens --- */
+:root {
+  --color-bg:           #F8F9FA;
+  --color-text:         #1C2333;
+  --color-accent:       #1A7A6E;
+  --color-accent-light: #E6F4F2;
+  --color-muted:        #6B7685;
+  --color-border:       #DDE1E7;
+  --color-nav-bg:       #1C2333;
+  --color-nav-text:     #E8ECF0;
+  --font-display:       'DM Serif Display', Georgia, serif;
+  --font-body:          'Inter', system-ui, sans-serif;
+  --content-width:      860px;
+  --radius:             4px;
+}
+
+/* ============================================================
+   BASE
+   ============================================================ */
+
+body {
+  font-family:      var(--font-body);
+  font-size:        1rem;
+  line-height:      1.8;
+  color:            var(--color-text);
+  background-color: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Content width constraint */
+.page-columns .column-body,
+.page-columns .column-page-left,
+main.content {
+  max-width: var(--content-width);
+}
+
+/* ============================================================
+   NAVIGATION
+   ============================================================ */
+
+.navbar {
+  background-color: var(--color-nav-bg) !important;
+  border-bottom: 3px solid var(--color-accent);
+  padding: 0.75rem 1.5rem;
+}
+
+.navbar-brand {
+  font-family:  var(--font-display);
+  font-size:    1.2rem;
+  color:        var(--color-nav-text) !important;
+  letter-spacing: 0.01em;
+}
+
+.nav-link {
+  font-family:    var(--font-body);
+  font-size:      0.875rem;
+  font-weight:    500;
+  color:          var(--color-nav-text) !important;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding:        0.5rem 0.75rem !important;
+  transition:     color 0.2s ease;
+  opacity:        0.85;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color:   var(--color-accent) !important;
+  opacity: 1;
+}
+
+/* ============================================================
+   HEADINGS
+   ============================================================ */
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  color:       var(--color-text);
+  line-height: 1.25;
+  font-weight: normal;
+}
+
+h1 {
+  font-size:     2.4rem;
+  margin-bottom: 0.25rem;
+  margin-top:    2rem;
+}
+
+/* Signature element — teal marker before section headings */
+h2 {
+  font-size:     1.6rem;
+  margin-top:    2.5rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+h2::before {
+  content:        "■";
+  color:          var(--color-accent);
+  font-size:      0.55em;
+  margin-right:   0.5rem;
+  vertical-align: middle;
+  display:        inline-block;
+  transform:      translateY(-2px);
+}
+
+h3 {
+  font-size:     1.2rem;
+  margin-top:    1.75rem;
+  margin-bottom: 0.4rem;
+  color:         var(--color-text);
+}
+
+/* Page title (Quarto title block) */
+.quarto-title h1.title {
+  font-size:     2.6rem;
+  margin-top:    1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.quarto-title .description,
+.quarto-title p.subtitle {
+  font-family: var(--font-body);
+  font-size:   1.1rem;
+  color:       var(--color-muted);
+  font-weight: 300;
+  margin-top:  0.25rem;
+}
+
+/* ============================================================
+   BODY TEXT & PARAGRAPHS
+   ============================================================ */
+
+p {
+  margin-bottom: 1.1rem;
+  max-width:     72ch;
+}
+
+strong {
+  font-weight: 600;
+  color:       var(--color-text);
+}
+
+em {
+  color: var(--color-muted);
+}
+
+/* ============================================================
+   LINKS
+   ============================================================ */
+
+a {
+  color:           var(--color-accent);
+  text-decoration: none;
+  border-bottom:   1px solid transparent;
+  transition:      border-color 0.2s ease, color 0.2s ease;
+}
+
+a:hover {
+  color:        #135C54;
+  border-bottom-color: var(--color-accent);
+}
+
+/* ============================================================
+   HORIZONTAL RULES
+   ============================================================ */
+
+hr {
+  border:           none;
+  height:           1px;
+  background-color: var(--color-border);
+  margin:           2.5rem 0;
+}
+
+/* ============================================================
+   LISTS
+   ============================================================ */
+
+ul, ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+  line-height:   1.7;
+}
+
+/* ============================================================
+   TABLES
+   ============================================================ */
+
+table {
+  width:           100%;
+  border-collapse: collapse;
+  font-size:       0.9rem;
+  margin-bottom:   1.5rem;
+}
+
+thead tr {
+  background-color: var(--color-accent);
+  color:            white;
+}
+
+th {
+  padding:    0.65rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  font-size:   0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+td {
+  padding:       0.6rem 1rem;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+}
+
+tbody tr:hover {
+  background-color: var(--color-accent-light);
+}
+
+/* ============================================================
+   BLOCKQUOTE — used for highlighted content
+   ============================================================ */
+
+blockquote {
+  border-left:  3px solid var(--color-accent);
+  margin:       1.5rem 0;
+  padding:      0.75rem 1.25rem;
+  background:   var(--color-accent-light);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  color:        var(--color-text);
+  font-style:   normal;
+}
+
+blockquote p {
+  margin-bottom: 0;
+}
+
+/* ============================================================
+   HOME PAGE — index.qmd specific
+   ============================================================ */
+
+/* Subtitle on home page */
+.quarto-title-block .quarto-title .title {
+  font-size: 3rem;
+}
+
+/* ============================================================
+   CODE (minimal — for project pages later)
+   ============================================================ */
+
+code {
+  font-size:        0.875em;
+  background-color: var(--color-accent-light);
+  padding:          0.15em 0.4em;
+  border-radius:    var(--radius);
+  color:            #135C54;
+}
+
+pre {
+  background-color: #1C2333;
+  color:            #E8ECF0;
+  padding:          1.25rem;
+  border-radius:    var(--radius);
+  overflow-x:       auto;
+  font-size:        0.85rem;
+  line-height:      1.6;
+}
+
+pre code {
+  background: none;
+  padding:    0;
+  color:      inherit;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+.nav-footer {
+  background-color: var(--color-nav-bg);
+  color:            var(--color-muted);
+  font-size:        0.8rem;
+  padding:          1rem;
+  text-align:       center;
+  border-top:       3px solid var(--color-accent);
+}
+
+/* ============================================================
+   RESPONSIVE — Mobile
+   ============================================================ */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  h2 {
+    font-size: 1.35rem;
+  }
+
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+
+  p {
+    max-width: 100%;
+  }
+}
+
+/* ============================================================
+   REDUCED MOTION — Accessibility
+   ============================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}

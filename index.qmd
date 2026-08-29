@@ -11,11 +11,8 @@ and building data tools that translate complex evidence into actionable policy i
 spans overdose prevention, tobacco and alcohol marketing surveillance, nutrition policy, and behavioral 
 research across the United States, South Asia, Latin America, and Africa.
 
-Currently based in Arlington, Texas, she works as a consultant with Vital Strategies on multi-city 
-overdose prevention campaign evaluation and AI-assisted digital marketing surveillance. She holds a 
-Master of Science in Applied Data Analytics from the University of Central Arkansas and a Master of 
-Public Health in Biostatistics from SRM Institute of Science and Technology, and is currently pursuing 
-a Doctor of Business Administration at Westcliff University.
+She holds a Master of Science in Applied Data Analytics from the University of Central Arkansas and a Master of 
+Public Health in Biostatistics from SRM Institute of Science and Technology, and is currently pursuing a Doctor of Business Administration at Westcliff University.
 
 ---
 
