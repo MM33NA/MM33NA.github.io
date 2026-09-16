@@ -56,9 +56,17 @@ print("---\n")
 print("## In Preparation\n")
 for wip in in_progress:
     print(f"**{wip['title']}**  ")
-    print(f"*{wip['description']}*  ")
+    if wip.get('authors'):
+        print(f"{wip['authors']}  ")
+    if wip.get('type'):
+        print(f"*{wip['type']}*  ")
+    if wip.get('prospero_registration'):
+        print(f"PROSPERO Registration: {wip['prospero_registration']}  ")
+    if wip.get('description'):
+        print(f"*{wip['description']}*  ")
     if wip.get('target_journal'):
         print(f"Target: *{wip['target_journal']}*  ")
-    print(f"Role: {wip['my_role']}  ")
+    if wip.get('my_role'):
+        print(f"Role: {wip['my_role']}  ")
     print()
 ```

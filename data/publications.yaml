@@ -81,3 +81,13 @@ others:
   publisher: "Vital Strategies"
   type: "Blog Post"
   url:
+
+in_progress:
+- authors: "Maharjan, M., Kumar, D., Khanal, G"
+  year: 2026
+  title: "Effects of a mass media campaign on public support for nutrition policy interventions: a systematic review and meta-analysis"
+  type: "Systematic Review and Meta-Analysis"
+  prospero_registration: "CRD42026212345"
+  my_role: "Lead Author"
+
+ 

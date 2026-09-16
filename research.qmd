@@ -9,7 +9,7 @@ I study how corporations market tobacco, alcohol, sugary beverages, and ultra-pr
 
 ### Public Health Campaign Evaluation
 
-I design and execute evaluations of large-scale public health media campaigns, using multi-stream data integration to measure reach, awareness, behavioral change, and policy impact. My current work focuses on overdose prevention campaigns targeting Black communities across U.S. cities.
+I design and execute evaluations of large-scale public health media campaigns, using multi-stream data integration to measure reach, awareness, behavioral change, and policy impact. My most recent work focused on overdose prevention campaigns targeting Black communities across U.S. cities.
 
 ### AI and Machine Learning in Public Health Research
 
@@ -31,4 +31,12 @@ I apply advanced statistical methods — including survey-weighted logistic regr
 
 ## Geographic Scope
 
-My research has been conducted across or in collaboration with institutions in: United States, India, Brazil, Colombia, Jamaica, Barbados, South Africa
+My research has been conducted across or in collaboration with local partners and institutions in: 
+
+- **United States** - overdose prevention campaign evaluation across seven cities; digital food marketing surveillance 
+- **India** - tobacco-free film and television policy evaluation; tuberculosis mass media message testing
+- **Brazil** - sugary drinks taxation campaign evaluation; ultra-processed food perception research
+- **Colombia** - front-of-package labeling campaign evaluation; school nutrition message testing
+- **Jamaica** - sugary drinks communication campaign evaluation; ultra-processed food perception research
+- **Barbados** - school nutrition message testing
+- **South Africa** - front-of-package labeling evaluation; sugary drinks tax campaign research

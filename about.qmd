@@ -1,9 +1,6 @@
 ---
 title: "About"
 ---
-
-## Background
-
 I am a public health researcher, biostatistician, and data analyst with over seven years of experience 
 spanning global health communication, program evaluation, and AI-assisted research. My career has been 
 built at Vital Strategies, where I have progressed from research intern to consultant, leading 
@@ -11,7 +8,7 @@ multi-country research and evaluation projects across five continents.
 
 My work sits at the intersection of public health evidence generation and data science. I apply 
 advanced statistical methods, machine learning tools, and real-time data systems to evaluate how 
-health communication campaigns change behavior, how commercial actors market harmful products online, 
+public health communication campaigns change behavior, how commercial actors market harmful products online, 
 and how public health evidence can be translated into policy and practice.
 
 ## Research Interests
@@ -22,11 +19,32 @@ and how public health evidence can be translated into policy and practice.
   naloxone uptake; stigma measurement
 - **AI in public health research** — large language model classification; explainable AI; automated 
   content analysis; digital surveillance systems
-- **Health communication and campaign evaluation** — Monitoring, Evaluation, and Learning (MEL) 
+- **Public health communication and campaign evaluation** — Monitoring, Evaluation, and Learning (MEL) 
   frameworks; multi-stream data integration; behavioral prediction modeling
-- **Global nutrition policy** — front-of-package labeling; sugary drinks taxation; ultra-processed 
-  food regulation
+- **Global nutrition policy** — front-of-package labeling; sugary drinks taxation; ultra-processed food regulation
 
+## Education
+```{python}
+#| echo: false
+#| output: asis
+import yaml
+
+with open('data/education.yaml', 'r', encoding='utf-8') as f:
+    data = yaml.safe_load(f)
+
+degrees = data.get('education') or []
+
+for edu in degrees:
+    status = " *(In Progress)*" if edu.get('status') == 'In Progress' else ""
+    print(f"### {edu['degree']}{status}\n")
+    if edu.get('concentration'):
+        print(f"*{edu['concentration']}*\n")
+    print(f"**{edu['institution']}**\n")
+    print(f"{edu['location']} | {edu['period']}")
+    if edu.get('graduation'):
+        print(f"\n*Graduated: {edu['graduation']}*")
+    print("\n\n")
+```
 ## Approach
 
 I believe rigorous methods and accessible communication are equally important. My analytical work 
