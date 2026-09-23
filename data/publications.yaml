@@ -1,93 +1,102 @@
 peer_reviewed:
-- authors: "Negi, N. S., Gill, V. M., Maharjan, M., Sinha, P., Puri, P., Mallik, V., Mullin, S., Tullu, F., & Murukutla, N."
-  year: 2023
-  title: "An observational study of the implementation of the Tobacco-Free Film and Television Policy in India"
-  journal: "Tobacco Use Insights"
-  volume: "16"
-  doi: "https://doi.org/10.1177/1179173X231205377"
+  - authors: "Murukutla, N., Negi, N. S., Rothenstein-Henry, R., Maharjan, M., Johnson, A., Drope, J., Mullin, S., & Karpati, A."
+    year: 2025
+    title: "Public attitudes towards alcohol and alcohol taxation policies: Insights from a cross-national survey"
+    journal: "medRxiv"
+    status: "under_review"
+    note: "Under review at a peer-reviewed journal"
+    doi: "https://doi.org/10.1101/2025.09.18.25333312"
+    my_role: "Co-author"
 
-- authors: "Christian, D., Maharjan, M., Kotov, A., Cotter, T., Mullin, S., Nurse, V., McGaw, B., Chen, D., Puri, P., Wang, S., Negi, N. S., & Murukutla, N."
-  year: 2022
-  title: "How the 'Are We Drinking Ourselves Sick?' communication campaign built support for policy action on sugary drinks in Jamaica"
-  journal: "Nutrients"
-  volume: "14(14), 2866"
-  doi: "https://doi.org/10.3390/nu14142866"
+  - authors: "Negi, N. S., Gill, V. M., Maharjan, M., Sinha, P., Puri, P., Mallik, V., Mullin, S., Tullu, F., & Murukutla, N."
+    year: 2023
+    title: "An observational study of the implementation of the Tobacco-Free Film and Television Policy in India"
+    journal: "Tobacco Use Insights"
+    volume: "16"
+    status: "published"
+    doi: "https://doi.org/10.1177/1179173X231205377"
+    my_role: "Co-author"
 
-- authors: "Murukutla, N., Cotter, T., Wang, S., Cullinan, K., Gaston, F., Kotov, A., Maharjan, M., & Mullin, S."
-  year: 2020
-  title: "Results of a mass media campaign in South Africa to promote a sugary drinks tax"
-  journal: "Nutrients"
-  volume: "12(6), 1878"
-  doi: "https://doi.org/10.3390/nu12061878"
+  - authors: "Christian, D., Maharjan, M., Kotov, A., Cotter, T., Mullin, S., Nurse, V., McGaw, B., Chen, D., Puri, P., Wang, S., Negi, N. S., & Murukutla, N."
+    year: 2022
+    title: "How the 'Are We Drinking Ourselves Sick?' communication campaign built support for policy action on sugary drinks in Jamaica"
+    journal: "Nutrients"
+    volume: "14(14), 2866"
+    status: "published"
+    doi: "https://doi.org/10.3390/nu14142866"
+    my_role: "Co-author"
 
-preprints:
-- authors: "Murukutla, N., Negi, N. S., Rothenstein-Henry, R., Maharjan, M., Johnson, A., Drope, J., Mullin, S., & Karpati, A."
-  year: 2025
-  title: "Public attitudes towards alcohol and alcohol taxation policies: Insights from a cross-national survey"
-  journal: "medRxiv"
-  doi: "https://doi.org/10.1101/2025.09.18.25333312"
+  - authors: "Murukutla, N., Gupta, A. K., Maharjan, M., Fabrizio, C., Myers, E. W., Johnson, A., Nkwanzi, V., Wilkason, C. A., Lacey, N., Tshangela, A., Djoudalbaye, B., & McClelland, A."
+    year: 2022
+    title: "Psychosocial determinants of adherence to public health and social measures (PHSMs) in 18 African Union member states during the early phase of the COVID-19 pandemic: Results of a cross-sectional survey"
+    journal: "BMJ Open"
+    volume: "12(6), e054839"
+    status: "published"
+    doi: "https://doi.org/10.1136/bmjopen-2021-054839"
+    my_role: "Co-author"
+
+  - authors: "Murukutla, N., Cotter, T., Wang, S., Cullinan, K., Gaston, F., Kotov, A., Maharjan, M., & Mullin, S."
+    year: 2020
+    title: "Results of a mass media campaign in South Africa to promote a sugary drinks tax"
+    journal: "Nutrients"
+    volume: "12(6), 1878"
+    status: "published"
+    doi: "https://doi.org/10.3390/nu12061878"
+    my_role: "Co-author"
 
 reports:
-- authors: "Magsumbol, M., Mardin, K., Maharjan, M., & Negi, N. S."
-  year: 2026
-  title: "From Stadiums to Screens: Coca-Cola's Sportswashing at the 2025 FIFA Club World Cup"
-  publisher: "Vital Strategies"
-  type: "Research Report"
-  url: "https://alertsbycanary.org/assets/publication/20260324132556000000_CAN007_CanaryFoodPolicyReport_20260324.pdf"
+  - authors: "Magsumbol, M., Mardin, K., Maharjan, M., & Negi, N. S."
+    year: 2026
+    title: "From Stadiums to Screens: Coca-Cola's Sportswashing at the 2025 FIFA Club World Cup"
+    publisher: "Vital Strategies"
+    url: "https://alertsbycanary.org/assets/publication/20260324132556000000_CAN007_CanaryFoodPolicyReport_20260324.pdf"
 
-- authors: "Negi, N. S., Maharjan, M., Magsumbol, M. S., et al."
-  year: 2025
-  title: "Sportswashing Through Media: Coca-Cola's Olympic Play"
-  publisher: "Vital Strategies"
-  type: "Research Report"
-  url: "https://www.vitalstrategies.org/wp-content/uploads/Sportswashing-Through-Media-Coca-Colas-Olympic-Play_Research-Report.pdf"
+  - authors: "Negi, N. S., Maharjan, M., Magsumbol, M. S., et al."
+    year: 2025
+    title: "Sportswashing Through Media: Coca-Cola's Olympic Play"
+    publisher: "Vital Strategies"
+    url: "https://www.vitalstrategies.org/wp-content/uploads/Sportswashing-Through-Media-Coca-Colas-Olympic-Play_Research-Report.pdf"
 
-- authors: "Maharjan, M., Negi, N. S., Mallik, V., Mullin, S., & Murukutla, N."
-  year: 2021
-  title: "Responses to public service announcements about tuberculosis and its comorbidities: A white paper on findings from a message testing study in India"
-  publisher: "Vital Strategies"
-  type: "White Paper"
-  url: "https://www.vitalstrategies.org/wp-content/uploads/Responses-to-Public-Service-Announcements-About-Tuberculosis-and-Its-Comorbidities-Findings-from-a-Message-Testing-Study-in-India.pdf"
+  - authors: "Maharjan, M., Negi, N. S., Mallik, V., Mullin, S., & Murukutla, N."
+    year: 2021
+    title: "Responses to public service announcements about tuberculosis and its comorbidities: A white paper on findings from a message testing study in India"
+    publisher: "Vital Strategies"
+    url: "https://www.vitalstrategies.org/wp-content/uploads/Responses-to-Public-Service-Announcements-About-Tuberculosis-and-Its-Comorbidities-Findings-from-a-Message-Testing-Study-in-India.pdf"
+
+  - authors: "Maharjan, M."
+    year: 2021
+    title: "Tackling tuberculosis with tried and tested mass media campaigns"
+    publisher: "Vital Strategies"
+    url: "https://www.vitalstrategies.org/tackling-tuberculosis-with-tried-and-tested-mass-media-campaigns/"
 
 conference_abstracts:
-- authors: 
-  year: 2026
-  title: "From Stadiums to Screens: Sweetened Beverage Company's Digital Sportswashing at the 2025 FIFA Club World Cup"
-  conference: "International Congress on Obesity (ICO)"
-  type: "Conference Abstract"
-  location: "Mexico City, Mexico"
-  url:
+  - authors: "Magsumbol, M. S., Mardin, K., Maharjan, M., Negi, N. S., Nieto, C., Cotter, T., & Murukutla, N."
+    year: 2026
+    title: "From Stadiums to Screens: Sweetened Beverage Company's Digital Sportswashing at the 2025 FIFA Club World Cup"
+    conference: "International Congress on Obesity (ICO)"
+    location: "Mexico City, Mexico"
 
-- authors: 
-  year: 2026
-  title: "Sportswashing Through Media: Coca-Cola's Olympic Play"
-  conference: "International Congress on Obesity (ICO)"
-  type: "Conference Abstract"
-  location: "Mexico City, Mexico"
-  url:
+  - authors: "Negi, N. S., Maharjan, M., Magsumbol, M. S., Puri, P., Kotov, A., Mardin, K., Burns, R., Cotter, T., & Murukutla, N."
+    year: 2026
+    title: "Sportswashing Through Media: Coca-Cola's Olympic Play"
+    conference: "International Congress on Obesity (ICO)"
+    location: "Mexico City, Mexico"
 
-- authors: "Cotter, T., Maharjan, M., Kotov, A., Negi, N. S., & Murukutla, N."
-  year: 2022
-  title:  "Ultra-processed foods and attitudes toward the companies that produce them"
-  conference: "International Congress on Obesity (ICO)"
-  type: "Conference Abstract"
-  location: "Melbourne, Australia"
-  doi: "https://onlinelibrary.wiley.com/doi/10.1111/obr.13502"
-
-others:
-- authors: "Maharjan, M."
-  year: 2021
-  title: "Tackling tuberculosis with tried and tested mass media campaigns"
-  publisher: "Vital Strategies"
-  type: "Blog Post"
-  url:
+  - authors: "Cotter, T., Maharjan, M., Kotov, A., Negi, N. S., & Murukutla, N."
+    year: 2022
+    title: "Ultra-processed foods and attitudes toward the companies that produce them"
+    conference: "International Congress on Obesity (ICO)"
+    location: "Melbourne, Australia"
+    doi: "https://onlinelibrary.wiley.com/doi/10.1111/obr.13502"
 
 in_progress:
-- authors: "Maharjan, M., Kumar, D., Khanal, G"
-  year: 2026
-  title: "Effects of a mass media campaign on public support for nutrition policy interventions: a systematic review and meta-analysis"
-  type: "Systematic Review and Meta-Analysis"
-  prospero_registration: "CRD42026212345"
-  my_role: "Lead Author"
+  - authors: "Maharjan, M., Kumar, D., & Khanal, G."
+    year: 2026
+    title: "Effects of a mass media campaign on public support for nutrition policy interventions: a systematic review and meta-analysis"
+    type: "Systematic Review and Meta-Analysis"
+    prospero_registration: "CRD42026212345"
+    my_role: "Lead Author"
 
- 
+  - title: "Broken Chains, Rising Costs: How Global Disruptions Have Restructured the Finance and Logistics of US Healthcare"
+    description: "Narrative synthesis and comparative analysis, pre-COVID to present. Co-authored with Sakeena Fatima."
+    my_role: "Lead Author"

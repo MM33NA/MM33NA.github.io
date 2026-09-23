@@ -39,7 +39,7 @@ page-layout: full
 <!-- IMPACT NUMBERS -->
 <div class="impact-row">
   <div class="impact-stat">
-    <span class="impact-number">7+</span>
+    <span class="impact-number">6+</span>
     <span class="impact-label">Years of Research Experience</span>
   </div>
   <div class="impact-stat">

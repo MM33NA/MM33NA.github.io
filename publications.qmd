@@ -11,73 +11,72 @@ with open('data/publications.yaml', 'r', encoding='utf-8') as f:
     data = yaml.safe_load(f)
 
 peer_reviewed = data.get('peer_reviewed') or []
-preprints = data.get('preprints') or []
 reports = data.get('reports') or []
 conference_abstracts = data.get('conference_abstracts') or []
 in_progress = data.get('in_progress') or []
 
 # Peer-reviewed
 print("## Peer-Reviewed Publications\n")
-for pub in peer_reviewed:
-    badge = " *(Under Review)*" if pub.get('status') == 'under_review' else ""
-    print(f"**{pub['title']}**{badge}  ")
-    print(f"{pub['authors']} ({pub['year']})  ")
-    vol = f", {pub['volume']}" if pub.get('volume') else ""
-    print(f"*{pub['journal']}*{vol}  ")
-    if pub.get('note'):
-        print(f"*{pub['note']}*  ")
-    if pub.get('doi'):
-        print(f"[DOI]({pub['doi']})")
-    print()
+for pub in [p for p in peer_reviewed if p.get('status') != 'under_review']:
+    authors = pub['authors'].replace('Maharjan, M.', '**Maharjan, M.**')
+    vol = f", *{pub['volume']}*" if pub.get('volume') else ""
+    doi_link = f" <a href='{pub['doi']}' target='_blank'>{pub['doi']}</a>" if pub.get('doi') else ""
+    print(
+        f"{authors} ({pub['year']}). "
+        f"{pub['title']}. "
+        f"*{pub['journal']}*{vol}.{doi_link}\n"
+    )
 
-# Preprints
-print("## Preprints\n")
-for pre in preprints:
-    print(f"**{pre['title']}**  ")
-    print(f"{pre['authors']} ({pre['year']})  ")
-    print(f"*{pre['journal']}*  ")
-    if pre.get('doi'):
-        print(f"[DOI]({pre['doi']})")
-    print()
+# Preprints / Under Review
+print("---\n")
+print("## Preprints & Papers Under Review\n")
+for pub in [p for p in peer_reviewed if p.get('status') == 'under_review']:
+    authors = pub['authors'].replace('Maharjan, M.', '**Maharjan, M.**')
+    doi_link = f" <a href='{pub['doi']}' target='_blank'>{pub['doi']}</a>" if pub.get('doi') else ""
+    print(
+        f"{authors} ({pub['year']}). "
+        f"{pub['title']}. "
+        f"*{pub['journal']}*. Under review.{doi_link}\n"
+    )
 
 # Reports
 print("---\n")
 print("## Research Reports & Technical Publications\n")
 for rep in reports:
-    print(f"**{rep['title']}**  ")
-    print(f"{rep['authors']} ({rep['year']})  ")
-    print(f"*{rep['publisher']}* — {rep['type']}  ")
-    if rep.get('url'):
-        print(f"[Full text]({rep['url']})")
-    print()
+    authors = rep['authors'].replace('Maharjan, M.', '**Maharjan, M.**')
+    url_link = f" <a href='{rep['url']}' target='_blank'>Full text</a>" if rep.get('url') else ""
+    print(
+        f"{authors} ({rep['year']}). "
+        f"{rep['title']}. "
+        f"*{rep['publisher']}*.{url_link}\n"
+    )
 
 # Conference abstracts
 print("---\n")
 print("## Conference Abstracts & Presentations\n")
 for ab in conference_abstracts:
-    print(f"**{ab['title']}**  ")
-    print(f"{ab['authors']} ({ab['year']})  ")
-    print(f"*{ab['conference']}*, {ab['location']}  ")
-    if ab.get('doi'):
-        print(f"[Abstract]({ab['doi']})")
-    print()
+    authors = ab['authors'].replace('Maharjan, M.', '**Maharjan, M.**')
+    doi_link = f" <a href='{ab['doi']}' target='_blank'>Abstract</a>" if ab.get('doi') else ""
+    print(
+        f"{authors} ({ab['year']}). "
+        f"{ab['title']}. "
+        f"*{ab['conference']}*, {ab['location']}.{doi_link}\n"
+    )
 
 # In progress
 print("---\n")
 print("## In Preparation\n")
 for wip in in_progress:
-    print(f"**{wip['title']}**  ")
-    if wip.get('authors'):
-        print(f"{wip['authors']}  ")
-    if wip.get('type'):
-        print(f"*{wip['type']}*  ")
-    if wip.get('prospero_registration'):
-        print(f"PROSPERO Registration: {wip['prospero_registration']}  ")
-    if wip.get('description'):
-        print(f"*{wip['description']}*  ")
-    if wip.get('target_journal'):
-        print(f"Target: *{wip['target_journal']}*  ")
-    if wip.get('my_role'):
-        print(f"Role: {wip['my_role']}  ")
-    print()
+    badge = " *(Systematic Review & Meta-Analysis)*" if wip.get('type') else ""
+    prospero = f" PROSPERO: {wip['prospero_registration']}." if wip.get('prospero_registration') else ""
+    authors = wip.get('authors', '')
+    if authors:
+        authors = authors.replace('Maharjan, M.', '**Maharjan, M.**') + f" ({wip['year']}). "
+    journal = f" Target: *{wip['target_journal']}*." if wip.get('target_journal') else ""
+    desc = f" *{wip['description']}*" if wip.get('description') else ""
+    title = wip['title']
+    print(
+        f"{authors}"
+        f"{title}.{badge}{prospero}{desc}{journal}\n"
+    )
 ```
