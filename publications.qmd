@@ -11,6 +11,7 @@ with open('data/publications.yaml', 'r', encoding='utf-8') as f:
     data = yaml.safe_load(f)
 
 peer_reviewed = data.get('peer_reviewed') or []
+preprints = data.get('preprints') or []
 reports = data.get('reports') or []
 conference_abstracts = data.get('conference_abstracts') or []
 in_progress = data.get('in_progress') or []
@@ -27,6 +28,16 @@ for pub in peer_reviewed:
         print(f"*{pub['note']}*  ")
     if pub.get('doi'):
         print(f"[DOI]({pub['doi']})")
+    print()
+
+# Preprints
+print("## Preprints\n")
+for pre in preprints:
+    print(f"**{pre['title']}**  ")
+    print(f"{pre['authors']} ({pre['year']})  ")
+    print(f"*{pre['journal']}*  ")
+    if pre.get('doi'):
+        print(f"[DOI]({pre['doi']})")
     print()
 
 # Reports

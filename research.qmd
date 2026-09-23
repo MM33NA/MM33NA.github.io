@@ -21,13 +21,13 @@ I apply advanced statistical methods — including survey-weighted logistic regr
 
 ## Methodological Expertise
 
-**Quantitative methods:** Logistic regression, survey-weighted analysis, multivariate regression, factor analysis, SEM, PCA, behavioral prediction modeling
+**Quantitative methods:** Logistic regression, survey-weighted analysis, multivariate regression, factor analysis, structural equation modeling, principal component analysis, behavioral prediction modeling
 
 **Qualitative methods:** Message testing, focus groups, content analysis, systematic literature review
 
 **Evaluation frameworks:** Monitoring, Evaluation, and Learning (MEL), process and outcome evaluation, multi-stream data integration
 
-**AI/computational methods:** LLM classification, prompt engineering, automated validation, inter-rater reliability (Cohen's kappa), explainable AI
+**AI/computational methods:** Large language model (LLM) classification, prompt engineering, automated validation, inter-rater reliability (Cohen's kappa), explainable AI
 
 ## Geographic Scope
 

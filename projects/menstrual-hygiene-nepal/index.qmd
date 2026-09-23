@@ -1,0 +1,166 @@
+---
+title: "Menstrual Hygiene Knowledge and Practice"
+subtitle: "A School-Based Cross-Sectional Study Among Schoolgirls in Kirtipur, Nepal"
+---
+
+```{=html}
+<div class="project-meta">
+  <span class="project-tag">Epidemiology</span>
+  <span class="project-tag">R</span>
+  <span class="project-tag">Cross-Sectional Study</span>
+  <span class="project-tag">Nepal</span>
+  <span class="project-status">Completed</span>
+</div>
+```
+
+## Overview
+
+A school-based cross-sectional study assessing knowledge and practice of
+menstrual hygiene among 312 schoolgirls in Grades 7 through 9 attending
+two public and two private schools in Kirtipur, Kathmandu Valley, Nepal.
+The study identified sociodemographic predictors of good knowledge and
+good practice using binary logistic regression.
+
+This study was conducted in June and July 2017 as part of graduate
+research in public health, and the full reproducible analysis is
+published as a Quarto report.
+
+```{=html}
+<div class="project-links-row">
+  <a href="https://mm33na.github.io/menstrual-hygiene-nepal/analysis_report.html"
+     class="hero-link" target="_blank">
+    <i class="bi bi-file-earmark-bar-graph"></i> &nbsp; View Analysis Report
+  </a>
+</div>
+```
+
+---
+
+## Research Context
+
+Menstrual hygiene management remains a significant public health
+challenge in low- and middle-income countries. Adolescent girls face
+gaps in knowledge, restricted access to appropriate materials, and
+cultural practices that affect both their health and school attendance.
+In Nepal, these issues are compounded by taboos and restrictions that
+shape girls' experiences of menstruation from the time of menarche.
+
+This study was designed to quantify the prevalence of adequate knowledge
+and practice, and to identify which sociodemographic factors predict
+better outcomes — providing an evidence base for school-based
+interventions.
+
+---
+
+## Study Design
+
+| Parameter | Detail |
+|-----------|--------|
+| Design | School-based cross-sectional study |
+| Setting | Kirtipur, Kathmandu Valley, Nepal |
+| Period | June – July 2017 |
+| Participants | 312 schoolgirls, Grades 7–9 |
+| Schools | 2 public, 2 private |
+| Primary outcomes | Good knowledge (≥60% correct) and good practice (≥60% score) |
+
+---
+
+## Methods
+
+### Outcome Measures
+Knowledge was assessed across seven items covering the physiology,
+causes, and hygiene implications of menstruation. Practice was assessed
+across ten items covering absorbent use, disposal, genital hygiene, and
+school attendance behavior. Binary outcomes were defined at the 60%
+threshold for both.
+
+### Statistical Approach
+- **Descriptive statistics** — frequencies and proportions for
+  categorical variables; means and standard deviations for continuous
+- **Bivariate analysis** — Pearson's chi-squared tests examining
+  associations between sociodemographic variables and knowledge or
+  practice outcomes
+- **Binary logistic regression** — simultaneous entry of all predictors
+  to identify independent determinants of good knowledge and good
+  practice, reported as adjusted odds ratios (AOR) with 95% confidence
+  intervals
+
+---
+
+## Key Findings
+
+| Finding | Result |
+|---------|--------|
+| Good knowledge prevalence | 49.7% |
+| Good practice prevalence | 43.9% |
+| School absenteeism due to menstruation | 50.3% |
+| Dominant predictor (both outcomes) | Education grade |
+| Grade 7 vs Grade 9 — knowledge | AOR ≈ 0.10, p < .001 |
+| Public vs private school — practice | AOR ≈ 0.34, p < .001 |
+| School absenteeism primary reason | Dysmenorrhea (pain) |
+
+Education grade was the strongest independent predictor of both outcomes.
+Girls in Grade 7 had approximately 90% lower odds of good knowledge
+compared to Grade 9 girls, after adjusting for all other factors.
+Private school attendance was strongly associated with better practice,
+likely reflecting differences in school infrastructure and facilities
+rather than knowledge alone.
+
+Half of participants reported ever missing school due to menstruation,
+with dysmenorrhea as the most commonly cited reason — a finding with
+direct implications for school health programming.
+
+---
+
+## Visualizations
+
+The full analysis report includes:
+
+- **Forest plot** — adjusted odds ratios for all predictors of good
+  practice with 95% confidence intervals
+- **Score distribution** — practice score distributions by school type
+  showing the gap between public and private school girls
+- **Regression tables** — fully formatted with `gtsummary`, showing
+  both bivariate and adjusted results
+
+---
+
+## Tools and Reproducibility
+
+| Component | Technology |
+|-----------|-----------|
+| Analysis | R 4.4.1 |
+| Data wrangling | tidyverse (dplyr, tidyr, readr) |
+| Table generation | gtsummary |
+| Visualization | ggplot2 |
+| Regression | Base R `glm()`, broom |
+| Reporting | Quarto |
+| Hosting | GitHub Pages |
+
+The full analysis is reproducible from the Quarto source file.
+Individual participant data are not publicly released; all analyses
+run from anonymized survey data held securely by the author.
+
+---
+
+## Limitations
+
+- Cross-sectional design prevents causal inference
+- Self-reported data on practice may be subject to social desirability
+  bias
+- Limited to four schools in one urban municipality — findings may not
+  generalize to rural Nepal or other settings
+- Study period (2017) predates significant policy changes in Nepal's
+  menstrual health landscape
+
+---
+
+```{=html}
+<div class="project-footer">
+  <a href="../" class="work-card-link">← Back to Projects</a>
+  <a href="https://mm33na.github.io/menstrual-hygiene-nepal/analysis_report.html"
+     class="hero-link" target="_blank">
+    <i class="bi bi-file-earmark-bar-graph"></i> &nbsp; Analysis Report
+  </a>
+</div>
+```

@@ -21,8 +21,6 @@ website:
 
   navbar:
     left:
-      - href: index.qmd
-        text: Home
       - href: about.qmd
         text: About
       - href: experience.qmd
@@ -38,7 +36,7 @@ website:
 
   page-footer:
     center: |
-      (c) 2026 Meena Maharjan | Arlington, Texas |
+      &copy; 2026 Meena Maharjan | Arlington, Texas |
       <span class="beta-badge">Beta</span>
       This site is actively being developed and updated.
 

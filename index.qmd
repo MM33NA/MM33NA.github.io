@@ -11,13 +11,10 @@ page-layout: full
   <div class="hero-content">
     <h1 class="hero-name">Meena Maharjan</h1>
     <p class="hero-subtitle">
-      Public Health Researcher &nbsp;·&nbsp; Data Analyst &nbsp;·&nbsp; Biostatistician
+      Public Health Researcher &nbsp;·&nbsp; Data Analyst
     </p>
     <p class="hero-bio">
-      Over seven years of international experience evaluating public health campaigns,
-      monitoring commercial determinants of health, and building AI-assisted data tools
-      that translate complex evidence into policy action — across the United States,
-      South Asia, Latin America, and Africa.
+      Over seven years of international experience in public health research and campaign evaluation, working with partners in the United States, India, Brazil, Colombia, Jamaica, Barbados, and South Africa. Recent work includes building Python and AI-based tools for digital marketing surveillance and public health monitoring.
     </p>
     <div class="hero-links">
       <a href="mailto:mmaharjan039@gmail.com" class="hero-link">
@@ -50,11 +47,11 @@ page-layout: full
     <span class="impact-label">Countries of Research</span>
   </div>
   <div class="impact-stat">
-    <span class="impact-number">5</span>
+    <span class="impact-number">4</span>
     <span class="impact-label">Peer-Reviewed Publications</span>
   </div>
   <div class="impact-stat">
-    <span class="impact-number">3</span>
+    <span class="impact-number">8+</span>
     <span class="impact-label">Campaigns Evaluated</span>
   </div>
 </div>

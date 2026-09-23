@@ -52,3 +52,13 @@ projects:
     year: 2024
     status: "Completed"
     category: "Research Tools"
+
+  - title: "Menstrual Hygiene Knowledge and Practice — Nepal"
+    description: "School-based cross-sectional study assessing menstrual hygiene knowledge and practice among 312 schoolgirls in Kirtipur, Nepal, using binary logistic regression to identify sociodemographic predictors of good outcomes"
+    problem: "Half of girls missed school due to menstruation yet the determinants of adequate knowledge and practice were poorly characterized in this setting"
+    tools: ["R", "tidyverse", "gtsummary", "ggplot2", "Quarto"]
+    url: "https://mm33na.github.io/menstrual-hygiene-nepal/analysis_report.html"
+    page: "menstrual-hygiene-nepal/"
+    year: 2017
+    status: "Completed"
+    category: "Research & Epidemiology"
