@@ -5,7 +5,7 @@ title: "Research"
 
 ### Commercial Determinants of Health
 
-I study how corporations market tobacco, alcohol, sugary beverages, and ultra-processed foods through digital channels, and how this marketing undermines public health. My work with the CANARY program at Vital Strategies involves large-scale digital marketing surveillance using AI-assisted content classification, social media analysis, and real-time monitoring systems.
+I study how corporations market tobacco, alcohol, sugary beverages, and ultra-processed foods through digital channels, and how this marketing undermines public health. My most recent work in this area included leading the CANARY program at Vital Strategies — large-scale digital marketing surveillance using AI-assisted content classification, social media analysis, and real-time monitoring systems. I continue to develop independent tools in this space through projects such as Digital Sentinel AI.
 
 ### Public Health Campaign Evaluation
 
